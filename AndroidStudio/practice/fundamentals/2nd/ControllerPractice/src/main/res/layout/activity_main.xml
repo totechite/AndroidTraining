@@ -7,4 +7,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
+
+    <fragment
+        android:id="@+id/MyFragment"
+        android:name="jp.mixi.practice.activity.MainFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:layout_weight="1" />
+
 </LinearLayout>
