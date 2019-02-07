@@ -12,4 +12,12 @@
     <string name="name_hint">Input your name here.</string>
     <string name="confirm_button">Show Toast</string>
     <string name="toast_message">%1$s は、%2$d 回ボタンを押しました</string>
+
+    <string name="sp_left">ひだり</string>
+    <string name="sp_right">みぎ</string>
+    <string name="sp_center">まんなか</string>
+    <string name="sp_top">うえ</string>
+    <string name="sp_bottom">した</string>
+    <string name="sp_format">Create by %1$s</string>
+    
 </resources>

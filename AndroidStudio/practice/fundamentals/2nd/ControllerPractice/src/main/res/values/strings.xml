@@ -4,4 +4,6 @@
     <string name="app_name">ActivityAndFragmentPractice</string>
     <string name="hello_world">Hello world!</string>
 
+    <string name="hello_blank_fragment">Hello</string>
+
 </resources>

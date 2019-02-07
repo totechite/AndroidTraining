@@ -1,5 +1,6 @@
 package jp.mixi.practice.resourcemanagement;
 
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
@@ -11,6 +12,9 @@ public class DrawablePracticeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.drawable_practice);
+
+        Drawable drawable = getResources().getDrawable(R.drawable.circle);
+
     }
 
 }

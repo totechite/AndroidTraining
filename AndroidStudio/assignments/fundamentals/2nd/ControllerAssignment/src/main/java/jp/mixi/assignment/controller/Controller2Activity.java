@@ -38,6 +38,8 @@ public class Controller2Activity extends AppCompatActivity implements TextWatche
     @Override
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);
+        EditText text = (EditText) findViewById(R.id.Editor);
+        text.setText(savedInstanceState.getString("EDIT_TEXT"));
     }
 
     /**
@@ -46,6 +48,8 @@ public class Controller2Activity extends AppCompatActivity implements TextWatche
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
+        EditText text = (EditText) findViewById(R.id.Editor);
+        outState.putString("EDIT_TEXT", text.getText().toString());
     }
 
     @Override

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 四角形グラフィックリソースの定義 -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/rectangle" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <!-- solid: 塗りつぶし -->
+            <solid android:color="@color/oval" />
+            <!-- stroke: 枠線 -->
+        </shape>
+    </item>
+</layer-list>
